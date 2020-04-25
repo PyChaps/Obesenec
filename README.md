@@ -10,7 +10,4 @@ Túto hru si môžeš stihnuť pomocou "git clone" alebo stiahnuť "ZIP file" a 
 
 # O hre:
 
-Obesenec je hra v ktorej hádaš písmená a snažíš sa uhádnuť náhodnevybraté slovo.
-
-# Instagram: @mafinka3331
-# Gmail: jakub.attackerx@gmail.com
+Obesenec je hra v ktorej hádaš písmená v náhodne vybratom slove.
