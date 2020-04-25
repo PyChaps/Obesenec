@@ -1,4 +1,5 @@
 # Hra obesenec
+
 import random
 import os
 
