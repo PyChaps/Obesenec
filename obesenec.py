@@ -3,7 +3,7 @@
 import random
 import os
 
-print("***********************************\n*           *Obesenec*            *\n***********************************\n*coded by: Jakub Krsak, Jan Krsak *\n*version: 1.0.0                   *\n***********************************\n\n\n\n\n\n\n\n")
+print("***********************************\n*           *Obesenec*            *\n***********************************\n*coded by: Jakub Krsak, Jan Krsak *\n*version: 1.0.1                   *\n***********************************\n\n\n\n\n\n\n\n")
 
 #sibenica
 sibenice = ["             ", "             ", "             ", "             ", "             ", "             ", "             ", "          _/ \_", 
@@ -25,6 +25,7 @@ x = 1
 foo = []
 integer1 = 0
 integer2 = 8
+badTry = 0
 
 zoznam_pis += random_word
 
@@ -51,7 +52,7 @@ while integer2 <= 72:
             for item in index: 
                 #int_1 = index.pop(item)
                 foo[item] = pismeno
-            sibenica(integer1, integer2)
+            if badTry >= 1: sibenica(integer1 - 8,integer2 - 8)
             print(foo)
             if foo == zoznam_pis:
                 print("UHADOL SI SLOVO:", random_word)
@@ -62,6 +63,7 @@ while integer2 <= 72:
             print(foo)
             integer1 += 8
             integer2 += 8
+            badTry += 1
     else:
         print("Zadaj iba jedno pismeno!!!")
         x -= 1
