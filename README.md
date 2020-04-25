@@ -12,6 +12,6 @@ Túto hru si môžeš stihnuť pomocou "git clone" alebo stiahnuť "ZIP file" a 
 
 Obesenec je hra v ktorej hádaš písmená v náhodne vybratom slove.
 
-# Updates
+# Updates:
 
 Ak by si mal nápady na zlepšenie hry môžeš to doprogramovať a poslať "pull request"
