@@ -15,3 +15,4 @@ Obesenec je hra v ktorej hádaš písmená v náhodne vybratom slove.
 # Updates:
 
 Ak by si mal nápady na zlepšenie hry môžeš to doprogramovať a poslať "pull request"
+
